@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - English Country Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/a31b812740.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=The+Nautigal:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo2.gif" alt="logo" width="125" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+        <img src="./images/basket.png" width="40px" height="40px" />
+        <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/product1.jpg" alt="Honey Jar" />
+          <h4>Beehive Crystal Honey Jar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$20.95</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product2.jpg" alt="Cheese Board and Knife Set" />
+          <h4>Large Charcuterie Board Serving Platter</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product3.jpg" alt="Kitchen Utensils Holder" />
+          <h4>Baie Maison Kitchen Utensil Holder for Countertop</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$18.95</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/product4.jpg" alt="Colander Set of 2" />
+          <h4>Powder Coated Steel Colander Set of 2 - White</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$34.99</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+              <img src="./images/product5.jpg" alt="Porcelain Butter Dish" />
+              <h4>Porcelain Butter Dish</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>$25.00</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product6.jpg" alt="Strainers" />
+              <h4>Cuisinart Set of 3 Fine Mesh Stainless Steel Strainers</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>$12.98</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product7.jpg" alt="Salt and Pepper Set" />
+              <h4>Salt and Pepper Shakers Glass Set (Clear)</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>$8.98</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product8.jpg" alt="Pan Set of 2" />
+              <h4>Basics Non-Stick Cookware Set, Pots and Pans - 8-Piece Set</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>$42.32</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product9.jpg" alt="Candle Holders" />
+              <h4>Set of 2 White Wood Pillar Holders</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>$19.98</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product10.jpg" alt="Picnic Basket" />
+              <h4>
+                Picnic at Ascot Original Cheshire English-Style Willow Picnic Basket
+                with Service for 2 and Blanket
+              </h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>$156.00</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product11.jpg" alt="Kitchen Utensils Holder" />
+              <h4>24 Inch Famhouse Wall Clock, Rustic Antique Wood</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>$63.99</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/product12.jpg" alt="Hand soap dispenser of 2" />
+              <h4>
+                Elwiya Mason Jar Hand Soap Dispenser and Dish Soap Dispenser Set
+              </h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+              </div>
+              <p>$21.99</p>
+            </div>
+          </div>
+      </div>
+      <div class="page-btn">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>&#8594;</span>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>
+              Download our App for Android <br />
+              and IOS mobile phone
+            </p>
+            <div class="app-logo">
+              <img src="./images/playstore.png" />
+              <img src="./images/appstore.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo2.gif" />
+            <p>It is our aim to offer English country style products</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blo Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &copy; 2022 - Andrew Ingham</p>
+      </div>
+    </div>
+
+    <!-- js for toggle menu -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
