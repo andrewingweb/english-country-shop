@@ -29,7 +29,7 @@
             <img src="./images/logo2.gif" alt="logo" width="125" />
           </div>
           <nav>
-            <ul>
+            <ul id="MenuItems">
               <li><a href="">Home</a></li>
               <li><a href="">Products</a></li>
               <li><a href="">About</a></li>
@@ -39,9 +39,12 @@
           </nav>
           <img
             src="./images/basket.png"
-            alt="cart"
             width="40px"
             height="40px"
+          />
+          <img
+            src="./images/menu.png"
+            class="menu-icon" onclick="menutoggle()"
           />
         </div>
         <div class="row">
@@ -59,7 +62,7 @@
             <a href="" class="btn">Explore Now &#8594;</a>
           </div>
           <div class="col-2">
-            <img src="./images/kitchen2.jpg" alt="" />
+            <img src="./images/kitchen2.jpg" />
           </div>
         </div>
       </div>
@@ -242,5 +245,183 @@
         </div>
       </div>
     </div>
+    <!-- special offers -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img
+              src="./images/special3.gif"
+              alt="Kitchen Lighting"
+              class="offer-img"
+            />
+          </div>
+          <div class="col-5">
+            <p>Special offer</p>
+            <h1>Beautiful Two Tiered Tray</h1>
+            <small
+              >Beautiful 2 Tiered Tray in Farmhouse Style: Complement your home
+              decoration seamlessly with the gorgeous KIBAGA two tier tray & its
+              rustic finish! Besides being a charming table decor it also serves
+              as a marvellous farmhouse eyecatcher for any party set-up</small
+            >
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <p>$42.97</p>
+            <a class="btn" href="#">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <p class="spacing">
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Eius sequi alias ipsam earum ex illo
+              error soluta cupiditate
+              <i class="fa fa-quote-right"></i>
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="./images/woman3.jpg" />
+            <h3>Sonia Müller</h3>
+          </div>
+          <div class="col-3">
+            <p class="spacing">
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Eius sequi alias ipsam earum ex illo
+              error soluta cupiditate
+              <i class="fa fa-quote-right"></i>
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <img src="./images/woman1.jpg" />
+            <h3>Judith Winter</h3>
+          </div>
+          <div class="col-3">
+            <p class="spacing">
+              <i class="fa fa-quote-left"></i> Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Eius sequi alias ipsam earum ex illo
+              error soluta cupiditate
+              <i class="fa fa-quote-right"></i>
+            </p>
+
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="./images/woman2.jpg" />
+            <h3>Emma Hoffmann</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands -->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/vill.jpeg" />
+          </div>
+          <div class="col-6">
+            <img src="./images/clayre.jpeg" />
+          </div>
+          <div class="col-6">
+            <img src="./images/union.png" />
+          </div>
+          <div class="col-6">
+            <img src="./images/laura-ashley-logo-png-transparent.png" />
+          </div>
+          <div class="col-6">
+            <img src="./images/russell.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download our App for Android <br> and IOS mobile phone</p>
+            <div class="app-logo">
+              <img src="./images/playstore.png">
+              <img src="./images/appstore.png">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo2.gif" />
+            <p>It is our aim to offer English country style products</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blo Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2022 - Andrew Ingham</p>
+      </div>
+    </div>
+
+    <!-- js for toggle menu -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+          MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
   </body>
 </html>
